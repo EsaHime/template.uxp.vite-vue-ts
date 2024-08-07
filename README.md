@@ -1,6 +1,6 @@
 # Adobe UXP Vite template
 
-This is a project template that consists of Vite + Vue 3 + TSX.
+This is an UXP project template that consists of Vite + Vue 3 + TSX.
 
 ## Quick start
 
