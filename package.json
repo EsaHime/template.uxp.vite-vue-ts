@@ -6,7 +6,8 @@
   "description": "esahime_description",
   "scripts": {
     "build": "vue-tsc -b && vite build",
-    "postbuild": "node postbuild.mjs"
+    "postbuild": "node postbuild.mjs",
+    "watch": "nodemon --watch ./src --ext ts,tsx --exec npm run build"
   },
   "dependencies": {
     "vue": "^3.4.31"
@@ -23,6 +24,7 @@
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-n": "^16.3.0",
     "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^3.1.4",
     "stylus": "^0.63.0",
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
