@@ -7,7 +7,7 @@
   "scripts": {
     "build": "vue-tsc -b && vite build",
     "postbuild": "node postbuild.mjs",
-    "watch": "nodemon --watch ./src --ext ts,tsx --exec npm run build"
+    "watch": "nodemon --watch ./src --ext ts,tsx,styl --exec npm run build"
   },
   "dependencies": {
     "vue": "^3.4.31"

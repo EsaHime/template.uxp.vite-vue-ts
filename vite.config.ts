@@ -21,6 +21,7 @@ export default function (context: {
     build: {
       rollupOptions: {
         external: [
+          'fs',
           'photoshop',
           'uxp',
           'os'
